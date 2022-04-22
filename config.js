@@ -1,8 +1,9 @@
 module.exports={
     database:{
-        username:"root",
-        password:"",
-        database:"sequelize",
-        host:"localhost"
-        }
+        username:"postgres",
+        password:"postgres",
+        database:"agrobox",
+        host:"localhost",
+        port: "5432",
+    }
 }

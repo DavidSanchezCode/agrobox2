@@ -1,8 +1,8 @@
 import Sequelize from 'sequelize'
-const sequelize =new Sequelize(
-   '', 
-   'postgres', 
-   '123456',
+export const sequelize = new Sequelize(
+    'agrobox', 'postgres', 'postgres',
     {
-    }        
-)
+        host: 'localhost',
+        dialect: 'postgres'
+
+    })
