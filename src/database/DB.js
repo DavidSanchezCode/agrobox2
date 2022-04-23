@@ -4,5 +4,4 @@ export const sequelize = new Sequelize(
     {
         host: 'localhost',
         dialect: 'postgres'
-
     })
